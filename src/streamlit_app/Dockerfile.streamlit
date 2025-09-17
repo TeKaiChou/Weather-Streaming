@@ -1,0 +1,5 @@
+FROM python:3.11-slim
+WORKDIR /app
+COPY src/streamlit_app/app.py /app/app.py
+RUN pip install --no-cache-dir streamlit clickhouse-connect pandas streamlit_autorefresh
+CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501"]
