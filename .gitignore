@@ -1,0 +1,61 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -------------------------
+# Data & Checkpoints
+# -------------------------
+data/
+*/spark-checkpoints/
+*.db
+*.log
+*.tmp
+
+# -------------------------
+# Docker / Compose
+# -------------------------
+# Local volumes
+data/
+volumes/
+logs/
+
+# Ignore docker build cache
+**/.docker-cache
+
+# -------------------------
+# System / OS
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Secrets / Env files
+# -------------------------
+.env
+*.env.local
+.env.*
+!env.example  # 但可以保留一份 example 給別人用
+
+# -------------------------
+# IDE
+# -------------------------
+.vscode/
+.idea/
+*.swp
