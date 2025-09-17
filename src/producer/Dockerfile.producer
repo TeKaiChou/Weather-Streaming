@@ -1,0 +1,6 @@
+# Dockerfile.producer
+FROM python:3.11-slim
+WORKDIR /app
+COPY src/producer/push_from_api.py /app/app.py
+RUN pip install --no-cache-dir kafka-python requests
+CMD ["python", "app.py"]
