@@ -1,0 +1,4 @@
+# Dockerfile.spark-job
+FROM apache/spark:3.5.1
+WORKDIR /opt/spark-apps
+COPY src/spark_jobs/stream_weather.py /opt/spark-apps/spark_jobs/stream_weather.py
