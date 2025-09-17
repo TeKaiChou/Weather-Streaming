@@ -98,7 +98,7 @@ The goal is to show how data flows from **ingestion → processing → storage �
 
 ### 1. Clone Repo
 ```bash
-git clone https://github.com/<your-username>/weather-streaming.git
+git clone https://github.com/TeKaiChou/weather-streaming.git
 cd weather-streaming
 ```
 
