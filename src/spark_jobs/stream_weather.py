@@ -19,6 +19,7 @@ df = spark.readStream.format("kafka") \
     .option("kafka.bootstrap.servers", "kafka:29092") \
     .option("subscribe", "weather.raw.v1") \
     .option("startingOffsets", "latest") \
+    .option("failOnDataLoss", "false") \
     .load()
 
 schema = StructType([
