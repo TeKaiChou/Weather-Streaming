@@ -142,7 +142,7 @@ docker compose down -v
 
 - City-level trends aggregated over 5-minute windows  
 - Metrics: avg temperature, humidity, wind speed  
-- Auto-refresh every 10 seconds for near real-time view  
+- Auto-refresh every 30 seconds for near real-time view  
 
 ![Demo](docs/demo.gif)
 ---

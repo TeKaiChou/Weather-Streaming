@@ -11,7 +11,7 @@ port = int(os.getenv("CLICKHOUSE_PORT", "8123"))
 user = os.getenv("CLICKHOUSE_USER", "default")
 password = os.getenv("CLICKHOUSE_PASSWORD", "default_pw")
 database = os.getenv("CLICKHOUSE_DB", "weather")
-REFRESH_SEC = int(os.getenv("REFRESH_SEC", "30"))  # 👈 控制倒數與自動刷新
+REFRESH_SEC = int(os.getenv("REFRESH_SEC", "30")) 
 
 
 st.set_page_config(page_title="Weather Streaming", layout="wide")
