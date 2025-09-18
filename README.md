@@ -144,8 +144,7 @@ docker compose down -v
 - Metrics: avg temperature, humidity, wind speed  
 - Auto-refresh every 10 seconds for near real-time view  
 
-![dashboard-screenshot](docs/dashboard.png)
-
+![Demo](docs/demo.gif)
 ---
 
 ## 🔑 Environment Variables
