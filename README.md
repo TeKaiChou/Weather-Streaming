@@ -1,4 +1,4 @@
-# 🌦 Weather Streaming Pipeline (Microservices)
+# 🌦 Weather Streaming Pipeline
 
 ## 📖 Project Purpose
 
