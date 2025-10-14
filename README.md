@@ -2,8 +2,7 @@
 
 ## 📖 Project Purpose
 
-This project was designed as a **portfolio-friendly streaming data pipeline** that demonstrates how real-time systems are built in modern data engineering.  
-The theme is **weather events**, chosen because weather data is:
+This project was designed as a **portfolio-friendly streaming data pipeline** that demonstrates how real-time systems are built in modern data engineering. The theme is **weather events**, chosen because weather data is:
 - Continuous and fast-changing → ideal for streaming
 - Easy to simulate with fake APIs → no external dependency
 - Intuitive to visualize → makes the demo engaging
